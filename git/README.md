@@ -18,3 +18,13 @@ Be able to explain:
 * How to merge branches
 * How to work as collaborators on a project
 * Which files should and which files should not appear in your repo
+
+## <p align=center>Tasks </p>
+### <p align=center>0. Create and setup your Git and GitHub account </p>
+### <p align=center>1. Repo-session </p>
+### <p align=center>2. Coding fury road </p>
+### <p align=center>3. Collaboration is the base of a company </p>
+### <p align=center>4. Collaboration: be up to date </p>
+### <p align=center>5. HAAA what did you do??? </p>
+### <p align=center>6. Never push too much </p>
+## <p align=center>Score: 100/100 </p>
