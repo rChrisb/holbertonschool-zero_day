@@ -18,10 +18,10 @@ Be able to explain:
 * How to merge branches
 * How to work as collaborators on a project
 * Which files should and which files should not appear in your repo
-
+---------------------------------------------------------------------------
 ## <p align=center>Tasks </p>
 
----------------------------------------------------------------------------
+
 ### <p align=center>0. Create and setup your Git and GitHub account </p>
 
 ---------------------------------------------------------------------------
@@ -39,8 +39,35 @@ Create a new directory called git in your repo.
 
 ---------------------------------------------------------------------------
 ### <p align=center>3. Collaboration is the base of a company </p>
+For this project, create a branch update_script and in this branch:
+
+Create an empty file named bash/98
+Update bash/best by replacing echo "Best" with echo "Best School"
+Update bash/school by replacing echo "School" with echo "The school is open!"
+Add and commit these changes (message: “My personal work”)
+Push this new branch Tips
+Perfect! You did an amazing update in your project and it’s isolated correctly from the main branch.
+
+Ho wait, your manager needs a quick fix in your project and it needs to be deployed now:
+
+- Change branch to main
+- Update the file bash/best by replacing echo "Best" with echo "This School is so cool!"
+- Delete the directory js
+- Commit your changes (message: “Hot fix”) and push to the origin
+
+
+Ouf, hot fix is done!
+
 ---------------------------------------------------------------------------
 ### <p align=center>4. Collaboration: be up to date </p>
+For this task – and only for this task – please update your file README.md in the main branch from GitHub.com. It’s the only time you are allowed to update and commit from GitHub interface.
+
+After you have done that, in your terminal:
+
+- Get all changes of the main branch locally (i.e. your README.md file will be updated)
+- Create a new file up_to_date at the root of your directory and in it, write the git command line used
+- Add up_to_date to git, commit (message: “How to be up to date in git”), and push to the origin
+
 ---------------------------------------------------------------------------
 ### <p align=center>5. HAAA what did you do??? </p>
 ---------------------------------------------------------------------------
