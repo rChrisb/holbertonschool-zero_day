@@ -18,7 +18,7 @@ Be able to explain:
 * How to merge branches
 * How to work as collaborators on a project
 * Which files should and which files should not appear in your repo
----------------------------------------------------------------------------
+
 ## <p align=center>Tasks </p>
 
 
@@ -70,6 +70,19 @@ After you have done that, in your terminal:
 
 ---------------------------------------------------------------------------
 ### <p align=center>5. HAAA what did you do??? </p>
+Collaboration is cool, but not really when you update the same file at the same time…
+
+To illustrate that, please merge the branch update_script to main: “Cool, all my changes will be now part of the main branch, ready to be deployed!”
+
+HHHHHHHAAAAAAAA
+
+`CONFLICT (content): Merge conflict in bash/best`
+
+As you can see, you have conflicts between two branches on the same file.
+
+Your goal now is to resolve conflicts by using the version of the branch update_script, and push the result to the origin.
+
+At the end, you should have all your work from the branch update_script (new file and two updated files) and all latest main commits (new files, delete folder, etc.), without conflicts.
 ---------------------------------------------------------------------------
 ### <p align=center>6. Never push too much </p>
 ---------------------------------------------------------------------------
